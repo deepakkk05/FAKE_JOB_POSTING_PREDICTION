@@ -92,11 +92,11 @@ We adopt a **comparative experimental design** evaluating traditional ML vs. dee
 
 ### Key Findings
 
- **Linear SVC Best Overall:** Achieves optimal precision-recall balance (83.3% precision, 83.8% recall)  
- **ML Outperforms DL:** Traditional ML + TF-IDF beats neural networks on this moderate-sized, imbalanced dataset  
- **Random Forest: Highest Precision:** 95.76% precision but lower recall (65.32%) → good for minimizing false alarms  
- **Logistic Regression: Highest Recall:** 87.86% recall but lower precision → catches more frauds, more false alarms  
- **DL Models Underperform:** Limited training data (14k samples) + extreme imbalance hinders neural network advantage  
+- **Linear SVC Best Overall:** Achieves optimal precision-recall balance (83.3% precision, 83.8% recall)  
+- **ML Outperforms DL:** Traditional ML + TF-IDF beats neural networks on this moderate-sized, imbalanced dataset  
+- **Random Forest: Highest Precision:** 95.76% precision but lower recall (65.32%) → good for minimizing false alarms  
+- **Logistic Regression: Highest Recall:** 87.86% recall but lower precision → catches more frauds, more false alarms  
+- **DL Models Underperform:** Limited training data (14k samples) + extreme imbalance hinders neural network advantage  
 
 ### Visualizations
 
@@ -177,11 +177,11 @@ Our Linear SVC model can:
 
 ##  Future Work
 
-- [ ] **Transformers (BERT/RoBERTa):** Pre-trained language models may improve DL performance [web:40]  
-- [ ] **Explainability (SHAP/LIME):** Identify which keywords/phrases trigger fraud predictions [web:47]  
-- [ ] **Ensemble Methods:** Combine Linear SVC + Random Forest for robustness  
-- [ ] **Web Application:** Flask/Streamlit app for real-time fraud detection  
-- [ ] **Additional Features:** Extract URLs, email patterns, phone numbers as metadata features  
+-  **Transformers (BERT/RoBERTa):** Pre-trained language models may improve DL performance [web:40]  
+-  **Explainability (SHAP/LIME):** Identify which keywords/phrases trigger fraud predictions [web:47]  
+-  **Ensemble Methods:** Combine Linear SVC + Random Forest for robustness  
+-  **Web Application:** Flask/Streamlit app for real-time fraud detection  
+-  **Additional Features:** Extract URLs, email patterns, phone numbers as metadata features  
 
 ---
 
