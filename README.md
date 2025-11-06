@@ -143,13 +143,13 @@ jupyter>=1.0.0
 Run Notebook
 ```
 
-**Run Notebook**
+3. **Run Notebook**
 ```bash
 jupyter notebook fake_job_posting.ipynb
 ```
-**Expected Output:**
+4. **Expected Output:**
 All cells execute sequentially, training 8 models and generating comparison visualizations (~10–15 min on CPU).
-```
+
 ---
 
 ##  Conclusion
