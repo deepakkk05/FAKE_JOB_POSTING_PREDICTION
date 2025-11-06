@@ -108,6 +108,48 @@ The notebook includes:
 - 📉 DL training history (loss/accuracy over epochs)  
 
 ---
+## 🚀 How to Run
+
+### Prerequisites
+- Python 3.8+  
+- pip or conda package manager  
+
+---
+
+### Setup & Execution
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/deepakkk05/FAKE_JOB_POSTING_PREDICTION.git
+   cd FAKE_JOB_POSTING_PREDICTION
+2. **Install Dependencies**
+
+```bash
+Copy code
+pip install -r requirements.txt
+requirements.txt:
+```
+
+```shell
+Copy code
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+imbalanced-learn>=0.8.0
+tensorflow>=2.19.0
+jupyter>=1.0.0
+Run Notebook
+```
+
+```bash
+Copy code
+jupyter notebook fake_job_posting.ipynb
+Expected Output:
+All cells execute sequentially, training 8 models and generating comparison visualizations (~10–15 min on CPU).
+```
+---
 
 ## 🏆 Conclusion
 
