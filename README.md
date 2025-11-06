@@ -138,17 +138,11 @@ Among all tested models, **Linear SVC** achieved the highest performance with:
 
 ---
 
-## 📁 Project Structure
-📦 Fake-Job-Posting-Detection
-┣ 📜 fake_job_postings.csv # Dataset file
-┣ 📜 fake_job_posting.ipynb # Main Jupyter Notebook with all analysis
-┣ 📜 README.md # This file
-
 
 ---
 
 ## 🌟 Future Enhancements
 
-- [ ] Implement **Transformer models** (BERT, RoBERTa, DistilBERT) for better contextual understanding
-- [ ] Add **Explainability** using SHAP or LIME to interpret model predictions
-- [ ] Build a **Flask/Streamlit web app** for live job post fraud detection
+-  Implement **Transformer models** (BERT, RoBERTa, DistilBERT) for better contextual understanding
+-  Add **Explainability** using SHAP or LIME to interpret model predictions
+-  Build a **Flask/Streamlit web app** for live job post fraud detection
