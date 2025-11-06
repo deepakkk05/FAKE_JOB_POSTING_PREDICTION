@@ -1,11 +1,11 @@
-# 🧠 Fake Job Posting Detection Using ML & Deep Learning
+## Fake Job Posting Detection Using ML & Deep Learning
 
-## 📝 Problem Description
+##  Problem Description
 
 Online recruitment fraud has become a significant threat, with scammers creating fake job postings to steal personal information and money from job seekers. This project develops an automated system to detect fraudulent job postings using Natural Language Processing and machine learning. We implement and compare **8 models** (5 ML + 3 DL) to find the most effective approach for identifying fraud patterns in job descriptions and metadata.
 
 **Why It Matters:**
-- 4-5% of online job postings are fraudulent [web:36][web:78]  
+- Many of the online job postings are fraudulent  
 - Manual review is impractical at scale (millions of postings daily)  
 - Victims lose money, personal data, and trust in legitimate platforms  
 
@@ -13,7 +13,7 @@ Online recruitment fraud has become a significant threat, with scammers creating
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [Kaggle - Real or Fake Job Posting Prediction](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction)
 
@@ -42,7 +42,7 @@ Online recruitment fraud has become a significant threat, with scammers creating
 
 ---
 
-## 🔬 Methods
+## Methods
 
 ### Approach
 
@@ -75,7 +75,7 @@ We adopt a **comparative experimental design** evaluating traditional ML vs. dee
 
 ---
 
-## 🧪 Experiments & Results
+## Experiments & Results
 
 ### Performance Summary
 
@@ -92,23 +92,23 @@ We adopt a **comparative experimental design** evaluating traditional ML vs. dee
 
 ### Key Findings
 
-✅ **Linear SVC Best Overall:** Achieves optimal precision-recall balance (83.3% precision, 83.8% recall)  
-✅ **ML Outperforms DL:** Traditional ML + TF-IDF beats neural networks on this moderate-sized, imbalanced dataset  
-✅ **Random Forest: Highest Precision:** 95.76% precision but lower recall (65.32%) → good for minimizing false alarms  
-✅ **Logistic Regression: Highest Recall:** 87.86% recall but lower precision → catches more frauds, more false alarms  
-✅ **DL Models Underperform:** Limited training data (14k samples) + extreme imbalance hinders neural network advantage  
+ **Linear SVC Best Overall:** Achieves optimal precision-recall balance (83.3% precision, 83.8% recall)  
+ **ML Outperforms DL:** Traditional ML + TF-IDF beats neural networks on this moderate-sized, imbalanced dataset  
+ **Random Forest: Highest Precision:** 95.76% precision but lower recall (65.32%) → good for minimizing false alarms  
+ **Logistic Regression: Highest Recall:** 87.86% recall but lower precision → catches more frauds, more false alarms  
+ **DL Models Underperform:** Limited training data (14k samples) + extreme imbalance hinders neural network advantage  
 
 ### Visualizations
 
 The notebook includes:
-- 📊 Class distribution (bar/pie charts)  
-- 📈 Model comparison (F1, Precision, Recall bar plots)  
-- 🎯 ROC curves (all 8 models overlaid)  
-- 🔢 Confusion matrices (8 heatmaps showing TP/FP/TN/FN)  
-- 📉 DL training history (loss/accuracy over epochs)  
+-  Class distribution (bar/pie charts)  
+-  Model comparison (F1, Precision, Recall bar plots)  
+-  ROC curves (all 8 models overlaid)  
+-  Confusion matrices (8 heatmaps showing TP/FP/TN/FN)  
+-  DL training history (loss/accuracy over epochs)  
 
 ---
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 - Python 3.8+  
@@ -125,13 +125,13 @@ The notebook includes:
 2. **Install Dependencies**
 
 ```bash
-Copy code
+
 pip install -r requirements.txt
 requirements.txt:
 ```
-
+**requirements.txt**
 ```shell
-Copy code
+
 numpy>=1.21.0
 pandas>=1.3.0
 matplotlib>=3.4.0
@@ -143,15 +143,16 @@ jupyter>=1.0.0
 Run Notebook
 ```
 
+**Run Notebook**
 ```bash
-Copy code
 jupyter notebook fake_job_posting.ipynb
-Expected Output:
+```
+**Expected Output:**
 All cells execute sequentially, training 8 models and generating comparison visualizations (~10–15 min on CPU).
 ```
 ---
 
-## 🏆 Conclusion
+##  Conclusion
 
 ### What We Learned
 
@@ -174,7 +175,7 @@ Our Linear SVC model can:
 
 ---
 
-## 🌟 Future Work
+##  Future Work
 
 - [ ] **Transformers (BERT/RoBERTa):** Pre-trained language models may improve DL performance [web:40]  
 - [ ] **Explainability (SHAP/LIME):** Identify which keywords/phrases trigger fraud predictions [web:47]  
@@ -184,7 +185,7 @@ Our Linear SVC model can:
 
 ---
 
-## 📚 References
+##  References
 
 1. [Kaggle Dataset - Real or Fake Job Posting Prediction](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction)  
 2. Vidros, S., et al. (2023). "Detecting fake job postings using machine learning." *IEEE Conference on Artificial Intelligence*.  
